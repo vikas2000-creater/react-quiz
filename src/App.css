@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100;300;400;500;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200;300&family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box; 
+  scrollbar-width:thin;
+}
+ a{
+  text-decoration: inherit;
+}
+   
+  *:: -webkit-scrollbar{
+    width:8px;
+     background-color: grey;
+
+  }
+ .App {
+  min-height: 98.5vh;
+  border: 8px solid #39445a93;
+  /* background-color: white; */
+
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+ align-items: center;
+  padding: 5px;  
+  margin:15px;
+ /* border:1px solid green;*/
+} 
+.mainImg {
+  padding: 10px 0 5px 0;
+}
